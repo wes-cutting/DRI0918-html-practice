@@ -1,0 +1,16 @@
+body{
+    background-color: grey;
+    color: white;   
+}
+a{
+    color: white;
+}
+.article-title {
+    text-align: center;
+}
+.border {
+    border-style: solid;
+    border-radius: 20%;
+    width: 50%;
+    height: 20%;
+}

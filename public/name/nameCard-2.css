@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(73, 73, 73);
+}
+section{
+    text-align: center;
+    background-color: rgb(223, 75, 56);
+    margin: 15% 40% 0 40%;
+    color: white;
+    font-family: 'Courier New';
+    border-radius: 1em;
+}
+header{
+    display: flex;
+    flex-direction: column;
+}
+article{
+    background-color: white;
+    color: black;
+}
+footer{
+    padding: .5em;
+}
+
+#hello{
+    font-size: 3em;
+}
+#sub{
+    margin-top: -.8em;
+    margin-bottom: .5em;
+}
+#name{
+    font-size: 5em;
+}

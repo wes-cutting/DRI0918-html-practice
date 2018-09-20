@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(73, 73, 73);
+}
+p{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+section:last-child{
+    padding: 3%;
+}
+
+section:first-child *{
+    margin-top: 0;
+    margin-bottom: .3em;
+}
+
+#card{
+    background-color: rgb(223, 75, 56);
+    text-align: center;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 15%;
+    border-radius: 1em;
+}
+#content {
+    background-color: rgb(255,255,255);
+    height: 6em;
+}
+#hello {
+    font-size: 3em;
+    margin-bottom: -.2em;
+}
+#content p{
+    color: black;
+    font-size: 5em;
+    margin: 0;
+}

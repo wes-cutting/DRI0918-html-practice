@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>React App</title>
+    <style>
+      body {
+        text-align: center
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+    <div id="root"></div>
+    <form onsubmit="alert('I\'m an OnSubmit Event')">
+      <label for="search">Search: </label>
+      <input id="search" type="text" autofocus/> <br/>
+      <input type="text" placeholder="Search"/> <br/>
+      <input type="text" value="Search"/> <br/> 
+  
+      <input type="button" value="Submit" onclick="alert('I\'m an OnClick Event')"> <br/>
+      <button type="submit">Hey There</button> <br/>
+      <input type="submit" />
+    </form>
+    <hr/>
+    <form onsubmit="alert('Form Submitted')">
+        <input type="text" required/> 
+        <input type="text" pattern="[a-z,A-Z]"/>
+        <input type="email" />
+        <input type="tel" placeholder="Telephone"/>
+        <input type="submit" />
+        &#87;&#101;&#115;
+        <br>
+        @@@@
+    </form>
+    <hr/>
+    <form>
+        <input type="text" placeholder="Search"/> 
+    </form>
+    <hr/>
+  </body>
+</html>
