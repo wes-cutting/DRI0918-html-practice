@@ -7,16 +7,23 @@
   <body>
     <a href="../index.html">Home</a> <br>
     <a href="./nameCard-2.html">Name Card #2</a>
+    <form onsubmit="changeName(event)">
+        <input id="nameCapture" type="text" placeHolder="Enter your Name"/>
+        <input type="submit" value="Update"/>
+    </form>
     <div id="card">
         <section>
             <p id="hello">Hello</p>
             <p>my name is</p>
         </section>
         <section id="content">
-            <p>Wes</p>
+            <p id="nameDisplay">
+                Wes
+            </p>
         </section>
         <section>
         </section>
     </div>
+    <script src="./name.js"></script>
   </body>
   </html>
